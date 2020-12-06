@@ -139,7 +139,8 @@ const createUser = async (user, response) => {
   try {
     await _store__WEBPACK_IMPORTED_MODULE_1__["default"].insert(user);
     response.body = {
-      token: createToken(user)
+      token: createToken(user),
+      _id: user._id
     };
     response.status = 201; // created
   } catch (err) {
@@ -163,7 +164,8 @@ router.post('/login', async ctx => {
 
   if (user && credentials.password === user.password) {
     response.body = {
-      token: createToken(user)
+      token: createToken(user),
+      _id: user._id
     };
     response.status = 201; // created
   } else {
@@ -257,11 +259,9 @@ router.get('/', async ctx => {
   console.log("in get");
   const response = ctx.response;
   const userId = ctx.state.user._id;
-  const list = await _store__WEBPACK_IMPORTED_MODULE_1__["default"].find({
+  response.body = Object.values(await _store__WEBPACK_IMPORTED_MODULE_1__["default"].find({
     userId
-  });
-  console.log(list);
-  response.body = list;
+  }));
   response.status = 200; // ok
 });
 router.get('/:id', async ctx => {

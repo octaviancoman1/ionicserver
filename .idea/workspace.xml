@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79ac5e77-7d7b-4e30-8a57-639df96d6ead" name="Default Changelist" comment="" />
+    <list default="true" id="79ac5e77-7d7b-4e30-8a57-639df96d6ead" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/flights.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/flights.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flight/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/flight/router.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kHrhEjTLgpvAgZ9g2BmzS7OTVe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -17,7 +28,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ionicapp" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -38,7 +49,15 @@
       <option name="presentableId" value="Default" />
       <updated>1605368476578</updated>
       <workItem from="1605368478699" duration="8579000" />
-      <workItem from="1605433450653" duration="346000" />
+      <workItem from="1605433450653" duration="1636000" />
+      <workItem from="1605472882817" duration="1238000" />
+      <workItem from="1605548147998" duration="2993000" />
+      <workItem from="1605627868368" duration="2962000" />
+      <workItem from="1606047528221" duration="324000" />
+      <workItem from="1606735471015" duration="15220000" />
+      <workItem from="1606814019608" duration="10887000" />
+      <workItem from="1606828729178" duration="563000" />
+      <workItem from="1607174843811" duration="15500000" />
     </task>
     <servers />
   </component>
@@ -46,10 +65,11 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1605386833344">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1607181909965">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605386833344" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606824219362" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607181909965" />
     <state width="1899" height="628" key="GridCell.Tab.0.bottom" timestamp="1605394005369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

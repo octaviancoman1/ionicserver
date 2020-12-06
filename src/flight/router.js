@@ -9,9 +9,7 @@ router.get('/', async (ctx) => {
   console.log("in get")
   const response = ctx.response;
   const userId = ctx.state.user._id;
-  const list=await flightStore.find({ userId });
-  console.log(list)
-  response.body = list;
+  response.body = Object.values(await flightStore.find({ userId }));
   response.status = 200; // ok
 });
 
